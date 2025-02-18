@@ -51,7 +51,7 @@ function addEventButton(button, section, container) {
             document.body.appendChild(errorMsg);
             setTimeout(() => {
                 errorMsg.remove();
-            });
+            },3000);
         }
     });
 }
